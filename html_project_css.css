@@ -1,0 +1,356 @@
+body
+{
+    background-color: white;
+    background-image: url('images/Skull_Large.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+dd
+{
+    margin-bottom: 32px;
+}
+.ContentContainerStyle
+{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border: none;
+    text-align: left;
+    vertical-align: top;
+}
+.BannerStyle
+{
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32pt;
+    color: blue;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #00CCFF;
+    background-image: url('images/SubtitleBackground.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.BannerLogo
+{
+    margin-right: 16px;
+    margin-top: 4px;
+    width: 32px;
+    height: auto;
+}
+
+
+
+.NavFlexContainer
+{
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* general */
+    border: none;
+    margin-bottom: 8px;   
+}
+.NavFlexItem
+{
+    /* flex */
+    flex-grow: 1;
+    flex-basis: auto;
+    /* general */
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: blue;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 12pt;
+    color: blue;
+    background-color: #63E0FF;
+}
+.NavFlexItem:hover
+{
+    /* flex */
+    flex-grow: 1;
+    flex-basis: auto;
+    /* general */
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: red;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 12pt;
+    color: red;
+    background-color: #FFFFC0;
+}
+
+
+
+.TopicTitle
+{
+    /* General */
+    padding-right: 24px;
+    text-align: right;
+    vertical-align: top;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24pt;
+    color: blue;
+}
+.TopicSection
+{
+    /* general */
+    margin-bottom: 80px;
+    width: auto;
+    border: none;
+    text-align: left;
+    vertical-align: top;
+}
+.TopicSubtitle
+{
+    /* General */
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: blue;
+}
+.TopicBodyText
+{
+    /* General */
+    text-align: left;
+    vertical-align: top;
+    font-family: Tahoma;
+    font-size: 14pt;
+    color: dimgray;
+}
+
+
+
+.StandardPhotoLeft
+{
+    /* General */
+    border: solid 1px darkgray;
+    width: 160px;
+    height: 160px;
+    float: left;
+    clear: right;
+    margin-left: 0px;
+    margin-right: 24px;
+}
+
+.StandardPhotoRight
+{
+    /* General */
+    border: solid 1px darkgray;
+    width: 160px;
+    height: 160px;
+    float: right;
+    clear: left;
+    margin-left: 24px;
+    margin-right: 0px;
+}
+
+
+.RedText
+{
+    color: red;
+}
+
+.CenteredRedText
+{
+    /* General */
+    text-align: center;
+    vertical-align: top;
+    font-family: Tahoma;
+    font-size: 14pt;
+    color: red;
+}
+
+
+
+.Features
+{
+    /* General */
+    text-align: left;
+    vertical-align: top;
+    font-family: Tahoma;
+    font-size: 14pt;
+    color: blue;
+}
+
+.Featuring
+{
+    /* General */
+    margin-left: 16px;;
+    text-align: left;
+    vertical-align: top;
+    font-family: Tahoma;
+    font-size: 14pt;
+    color: dimgray;
+}
+
+.BuyItNow
+{
+    text-align: right;
+    vertical-align: middle;
+}
+
+
+.BuyItNowButton
+{
+    margin-right: 160px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: Tahoma;
+    font-size: 12pt;
+    color: dimgray;
+    text-align: center;
+    background-color: lightgray;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    cursor: pointer;
+}
+
+.OrderForm
+{
+    /* general */
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 55%;
+    border: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+.Fieldbox
+{
+    border: none;
+    margin-bottom: 24px;
+}
+
+.FormLabel
+{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 11pt;
+    color: blue;
+    text-align: left;
+    vertical-align: top;
+}
+
+.FormInputField
+{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 12pt;
+    text-align: left;
+    vertical-align: top;
+}
+
+.BikePhoto
+{
+    /* General */
+    border: solid 1px darkgray;
+    width: 267px;
+    height: 170px;
+    float: left;
+    clear: right;
+    margin-left: 0px;
+    margin-right: 24px;
+}
+
+.TnCBodyText
+{
+    /* Debug */
+    border: 1px solid magenta;
+    /* General */
+    text-align: left;
+    vertical-align: top;
+    font-family: Tahoma;
+    font-size: 14pt;
+    color: dimgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#MainFlexContainer
+{
+    /* Debug */
+    border: 1px solid magenta;
+    /* flex */
+    display: flex;
+    flex-direction: row column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    /* general */
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: none;
+    margin-bottom: 8px;   
+}
+#MainFlexItemLeft
+{
+    /* Debug */
+    border: 1px solid magenta;
+    /* flex */
+    flex-grow: 1;
+    flex-basis: 18%;
+    /* general */
+    margin-left: 2px;
+    margin-right: 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+}
+#MainFlexItemRight
+{
+    /* Debug */
+    border: 1px solid magenta;
+    /* flex */
+    flex-grow: 4;
+    flex-basis: 80%; 
+    /* general */
+    margin-left: 1px;
+    margin-right: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+
